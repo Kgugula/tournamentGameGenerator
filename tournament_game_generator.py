@@ -3,9 +3,9 @@
 
 ''' This program can schedule games that teams will play in an end of year tournament.
     This program is only responsible for the first round of the tournmanet.
-    The first game outputted will contain the team with the most regular season wins,
-    the second game should contain the team with the second most regular season wins, etc.
-    Home team of each matchup is the team with the least wins of the two, if there is
+    The first game outputted will contain the team with the most regular season wins vs. least
+    regular season wins, the second game will contain the team with the second most regular
+    season win vs.second least regular season wins etc. Home team of each matchup is the team with the least wins of the two, if there is
     a tie in wins the program will choose a team at random
     '''
 
@@ -13,7 +13,7 @@
 
 ''' Assume there will always be an even number of teams
     User input will always be the correct type (i.e. ask for a number
-    it will always be an int '''
+    it will always be of type int '''
 
 # Ask user to input the number of teams
 # Going to start with a while loop to keep running an input function
